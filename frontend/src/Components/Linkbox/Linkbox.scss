@@ -1,0 +1,43 @@
+.linkbox{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 7px 6px 8px 2px rgba(230,221,221,1);
+    -webkit-box-shadow: 7px 6px 8px 2px rgba(230,221,221,1);
+    -moz-box-shadow: 7px 6px 8px 2px rgba(230,221,221,1);
+    border-radius: 10px;
+    height: 70px;
+    background-color: rgb(50, 240, 240);
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .counter{
+            font-size: 25px;
+            font-weight: 300;
+        }
+
+        .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom:1px solid gray; 
+        }
+        .icon{
+            font-size: 25px;
+            padding: 10px;
+            align-items: center;
+            border-radius: 10px;
+            align-self: flex-end;
+
+        }
+    }
+}

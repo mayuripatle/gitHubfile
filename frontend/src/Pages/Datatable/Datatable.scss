@@ -1,0 +1,38 @@
+.datatable{
+    height: 600px;
+    padding: 20px;
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .editButton{
+            padding: 5px;
+            color: darkblue;
+            border-radius: 5px;
+            margin: 5px;
+            border: 1px dotted rgba(0, 0, 139, 0.562);
+        }
+        .deleteButton{
+            padding: 5px;
+            color: crimson;
+            border-radius: 5px;
+            margin: 5px;
+            border: 1px dotted rgb(180, 7, 42);
+            cursor: pointer;
+        }
+    }
+}
+
+.feeStatus{
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Paid{
+        color: green;
+    }
+    &.Unpaid{
+        color: goldenrod;
+    }
+}

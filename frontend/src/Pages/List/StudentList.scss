@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    width: 100%;
+
+    .listContainer{
+        flex: 6;
+        .buttonContent{
+
+            display: flex;
+
+            button{
+                width: 140px;
+                padding: 10px;
+                border: none;
+                background-color: rgb(21, 197, 197);
+                color: blue;
+                font-weight: bold;
+                font-size: 14px;
+                cursor: pointer;
+                margin-left: 20px;
+                margin-top: 20px;
+
+                &:hover{
+                    background-color: rgba(240, 180, 70, 0.842);
+                    color: white;
+                }
+            }
+            
+        }
+    }
+}
